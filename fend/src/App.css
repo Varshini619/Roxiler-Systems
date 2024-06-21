@@ -1,0 +1,39 @@
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin:20px auto;
+    
+    
+}
+td,thead{
+ border: 1px solid palevioletred;
+ padding: 10px;
+}
+tr:nth-child(even){
+    background-color:rgb(139, 225, 139) ;
+    
+
+}
+thead{
+    background-color: rgb(139, 225, 139) ;
+}
+.con{
+    width:80%;
+    margin:20px auto ;
+    background-color: rgb(132, 245, 132) ;
+    border-radius: 10px;
+    padding: 20px;
+}
+.search,.page{
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.page button{
+    width:12%;
+    height: 7vh;
+    background-color: palevioletred ;
+    border-radius: 10%;
+    font-size: 30px;
+}
